@@ -14,6 +14,8 @@ public class ReadingExample {
 		Path path = Paths.get("D:\\workspace\\input.txt");
 		List<String> lines = Files.readAllLines(path, StandardCharsets.UTF_8);
 		
+		System.out.println("adding for github purpose")
+		
 		for(String s: lines) {
 			System.out.println(s.contains("Hello"));
 		}
